@@ -27,7 +27,7 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 
 # 4. Bắt đầu huấn luyện (Chạy 5 vòng để lấy báo cáo)
 print("--- NHÓM NAM & BẢO ANH BẮT ĐẦU HUẤN LUYỆN ---")
-model.fit(train_ds, validation_data=val_ds, epochs=5)
+model.fit(train_ds, validation_data=val_ds, epochs=30)
 
 # 5. Lưu kết quả thành file model
 model.save('model_rac_thai.h5')
