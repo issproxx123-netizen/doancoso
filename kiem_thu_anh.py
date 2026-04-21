@@ -21,5 +21,5 @@ def predict_waste(img_path):
 
 # 3. Chạy thử với 1 tấm ảnh rác bất kỳ trong máy
 # Bạn thay đường dẫn ảnh thực tế của bạn vào đây nhé
-test_img = r'C:\Users\USER\Downloads\test_rac.jpg' 
+test_img = r'C:\Users\USER\Downloads\paper18.jpg'
 predict_waste(test_img)
